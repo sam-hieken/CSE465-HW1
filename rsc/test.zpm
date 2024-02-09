@@ -1,0 +1,20 @@
+A = 12 ;
+B = 20 ;
+C = 8 ;
+C += 10 ;
+C -= B ;
+C -= A ;
+
+DOG = "woof" ;
+CAT = "meow " ;
+CAT += DOG ;
+
+PRINT C ;
+PRINT CAT ;
+
+X = 1 ;
+Y = 0 ;
+FOR 7 Y += X ; X *= 2 ; PRINT X ; ENDFOR
+X += 1000 ;
+PRINT X ;
+PRINT Y ;
